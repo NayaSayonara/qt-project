@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/bckgrnd/bgnd500.png);</string>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="i0mainPage">
+     <widget class="QFrame" name="i0frGetCoins">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>371</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>371</width>
+        <height>171</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>371</width>
+        <height>171</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500getcoins.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500getcoinspressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QPushButton" name="i0btnGetCoins">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>G</string>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i0lblGetCoins">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>181</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>181</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>181</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Get Coins for Notes</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="i0frNewCard">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>471</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QPushButton" name="i0btnNewCard">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>New
+Card</string>
+       </property>
+       <property name="shortcut">
+        <string>B</string>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i0lblNewCard">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>281</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Buy a NEW Vendotek Card</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="i0frRechargeCard">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>170</y>
+        <width>471</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>471</width>
+        <height>181</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>471</width>
+        <height>181</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500rechargecard.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500rechargecardpressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QPushButton" name="i0btnRechargeCard">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>R</string>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i0lblRechargeCard">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>281</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>281</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>281</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Recharge Your Vendotek Card</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="i0frQuit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>530</y>
+        <width>471</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QPushButton" name="i0btnQuit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>Q</string>
+       </property>
+       <property name="shortcut">
+        <string>Q</string>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i0lblQuit">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>281</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Liberation Sans Narrow</family>
+         <pointsize>28</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Удолиццо</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="i0frWelcome">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>0</y>
+        <width>661</width>
+        <height>771</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>661</width>
+        <height>771</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>661</width>
+        <height>771</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QLabel" name="i0lblLogo">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>10</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="paybox.qrc">:/bckgrnd/Logo_mobivend.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i0lblWelcome">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>150</y>
+         <width>471</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>471</width>
+         <height>351</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>471</width>
+         <height>351</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>72</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Vítejte Nový Zákazník!</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i0lblAnimated">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>490</y>
+         <width>311</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QFrame" name="i0frCardBalance">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>20</y>
+         <width>431</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <widget class="QPushButton" name="i0btnCardBalance">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>0</y>
+          <width>160</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Card
+Balance</string>
+        </property>
+        <property name="shortcut">
+         <string>Q</string>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="i0lblCardBalance">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>261</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>28</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Check Balance
+on Your Account</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <zorder>i0frWelcome</zorder>
+     <zorder>i0frGetCoins</zorder>
+     <zorder>i0frNewCard</zorder>
+     <zorder>i0frRechargeCard</zorder>
+     <zorder>i0frQuit</zorder>
+    </widget>
+    <widget class="QWidget" name="i1pageInsertNotes">
+     <widget class="QFrame" name="i1frNext">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1025</width>
+        <height>768</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QLabel" name="i1lblPleaseInsert">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>90</y>
+         <width>521</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Please Insert Notes</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QFrame" name="i1frBack">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>471</width>
+         <height>768</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <widget class="QPushButton" name="i1btnBack">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>570</y>
+          <width>160</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>48</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Q</string>
+        </property>
+        <property name="shortcut">
+         <string>Q</string>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="i1lblBack">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>610</y>
+          <width>281</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>28</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="i1lblHelpMsg1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>421</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>28</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Help Message 1</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="i1lblHelpMsg2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>310</y>
+          <width>421</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>28</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Help Message 2</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="i1lblYourBalance">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>290</y>
+         <width>371</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Your Balance</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLCDNumber" name="i1currentBalance">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>400</y>
+         <width>371</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="smallDecimalPoint">
+        <bool>false</bool>
+       </property>
+       <property name="digitCount">
+        <number>8</number>
+       </property>
+       <property name="value" stdset="0">
+        <double>150.000000000000000</double>
+       </property>
+       <property name="intValue" stdset="0">
+        <number>150</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i1lblCurrency">
+       <property name="geometry">
+        <rect>
+         <x>880</x>
+         <y>420</y>
+         <width>141</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CZK</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i1btnNext">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>570</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>Next</string>
+       </property>
+       <property name="shortcut">
+        <string>N</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="i2pageFlexExchange">
+     <widget class="QFrame" name="i2frExAddBalance">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <widget class="QLabel" name="i2lblPleaseAdjust">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>80</y>
+         <width>281</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Please Adjust Amount for Exchange</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QFrame" name="i2frExSubBalance">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>301</width>
+         <height>768</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <widget class="QPushButton" name="i2btnExBack">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>570</y>
+          <width>160</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>48</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Q</string>
+        </property>
+        <property name="shortcut">
+         <string>Q</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="i2lblBack">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>610</y>
+          <width>101</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>28</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Back</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="i2btnExSub100">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>160</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>36</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>-100</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="i2btnExSub10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>180</y>
+          <width>160</width>
+          <height>160</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Berlin Sans FB</family>
+          <pointsize>36</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>-10</string>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="i2lblYouDeposited">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>410</y>
+         <width>371</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>You Deposited</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLCDNumber" name="i2exchangeBalance">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>270</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="smallDecimalPoint">
+        <bool>false</bool>
+       </property>
+       <property name="digitCount">
+        <number>8</number>
+       </property>
+       <property name="value" stdset="0">
+        <double>150.000000000000000</double>
+       </property>
+       <property name="intValue" stdset="0">
+        <number>150</number>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i2lblExCurrency1">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>260</y>
+         <width>101</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CZK</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i2btnExDone">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>570</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>Done</string>
+       </property>
+       <property name="shortcut">
+        <string>D</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i2btnExAdd100">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>10</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>+100</string>
+       </property>
+       <property name="shortcut">
+        <string>N</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i2btnExAdd10">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>170</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>+10</string>
+       </property>
+       <property name="shortcut">
+        <string>N</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i2lblCurBalance">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>490</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>999</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i2lblExCurrency2">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>500</y>
+         <width>101</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CZK</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="i3pageTxnStatus">
+     <widget class="QFrame" name="i3frTxnStatus">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="i3lblTxnStatusMsg1">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>20</y>
+         <width>421</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Help Message 1</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i3lblTxnStatusMsg2">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>300</y>
+         <width>421</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Help Message 2</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i3btnDismiss">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>550</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+       <property name="shortcut">
+        <string>Q</string>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i3lblDismiss">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>550</y>
+         <width>351</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Dismiss/Next Customer</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i3lblTxnStatusIcon">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>311</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="paybox.qrc">:/bckgrnd/icn200approved.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i3lblTxnQRcode">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>384</width>
+         <height>384</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="paybox.qrc">:/bckgrnd/qrcode-placeholder.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="i4pageFixedExchange">
+     <widget class="QFrame" name="i4frFixedExchange">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="i4btnExChoice2">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>220</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>400</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i4lblYouDeposited">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>400</y>
+         <width>371</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>You Deposited</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i4btnExChoice1">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>40</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>200</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i4lblBack">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>600</y>
+         <width>101</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i4lblCurBalance">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>480</y>
+         <width>261</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>999</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i4lblExCurrency">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>490</y>
+         <width>101</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CZK</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="i4btnExBack">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>560</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>Q</string>
+       </property>
+       <property name="shortcut">
+        <string>Q</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i4lblPleaseChoose">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>60</y>
+         <width>411</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Please Adjust Coin Amount for Exchange</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="i5pageCardInteract">
+     <widget class="QFrame" name="i5frCardInteract">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1024</width>
+        <height>768</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{ border-image: url(:/buttons/btn500.png);}
+QPushButton:pressed {border-image: url(:/buttons/btn500pressed.png); border: none;}
+QPushButton:disabled {border-image: url(:/bckgrnd/bgnd500.png); border: none;}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="i5btnDismiss">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>530</y>
+         <width>160</width>
+         <height>160</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>48</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>OK</string>
+       </property>
+       <property name="shortcut">
+        <string>Q</string>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i5lblCardMsg2">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>280</y>
+         <width>421</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Another Help Message</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i5lblDismiss">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>530</y>
+         <width>351</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Dismiss/Cancel</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i5lblCardIcon">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>311</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="paybox.qrc">:/bckgrnd/icn200approved.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="i5lblCardMsg1">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>0</y>
+         <width>421</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Berlin Sans FB</family>
+         <pointsize>28</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Present/Remove your Card</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="paybox.qrc"/>
+ </resources>
+ <connections/>
+</ui>

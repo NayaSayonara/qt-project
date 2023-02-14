@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="buttons">
+    <file>btn500.png</file>
+    <file>btn500pressed.png</file>
+    <file>btn500rechargecard.png</file>
+    <file>btn500rechargecardpressed.png</file>
+    <file>btn500getcoinspressed.png</file>
+    <file>btn500getcoins.png</file>
+  </qresource>
+  <qresource prefix="fonts">
+    <file>BRLNSR.TTF</file>
+  </qresource>
+  <qresource prefix="bckgrnd">
+    <file>icn200approved.png</file>
+    <file>icn512nok.png</file>
+    <file>icn512wait.png</file>
+    <file>qrcode-placeholder.png</file>
+    <file>Logo_mobivend.png</file>
+    <file>bgnd500.png</file>
+  </qresource>
+</RCC>

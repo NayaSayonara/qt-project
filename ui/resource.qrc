@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="res">
+    <file>pic/okErr.png</file>
+    <file>pic/wait.png</file>
+    <file>pic/tyc.png</file>
+    <file>pic/lcr.png</file>
+    <file>pic/BCR.png</file>
+    <file>pic/lcr.png</file>
+    <file>pic/LoyaltyCard.png</file>
+    <file>fonts/Roboto-Bold.ttf</file>
+    <file>fonts/Roboto-Medium.ttf</file>
+    <file>fonts/Roboto-Regular.ttf</file>
+    <file>animation/insert.gif</file>
+    <file>QR.png</file>
+    <file>pic/Coins.png</file>
+    <file>pic/CZ.png</file>
+    <file>pic/Danger.png</file>
+    <file>pic/DE.png</file>
+    <file>pic/EN.png</file>
+    <file>pic/Exit.png</file>
+    <file>pic/Finish.png</file>
+    <file>pic/Frame.png</file>
+    <file>pic/Logo.png</file>
+    <file>pic/RU.png</file>
+    <file>pic/UA.png</file>
+    <file>pic/Vector.png</file>
+    <file>pic/waiting.png</file>
+    <file>pic/notesIN.png</file>
+    <file>pic/notesOUT.png</file>
+    <file>pic/Vector2.png</file>
+  </qresource>
+</RCC>

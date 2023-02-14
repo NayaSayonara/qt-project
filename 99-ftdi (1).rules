@@ -1,0 +1,11 @@
+# FTDI rules
+
+ACTION=="add", ATTRS{idVendor}=="0403", ENV{ID_SERIAL_SHORT}=="?*", SYMLINK+="USB-$env{ID_SERIAL_SHORT}", MODE="666", GROUP="dialout"
+
+# Fixed mapping by physical USB port.
+# Run: sudo dmesg -kWt | grep "now attached"                                                                                                                        ✔  30s  
+# Attach device. Use identifier from output below (for example):
+# usb 1-2.2.1.4: FTDI USB Serial Device converter now attached to ttyUSB1
+
+ACTION=="add", ATTRS{idVendor}=="0403", KERNELS=="1-2.2.1.4", SYMLINK+="USB-hopper", MODE="666", GROUP="dialout"
+
